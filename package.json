@@ -1,0 +1,21 @@
+{
+  "name": "coders-muse",
+  "version": "0.0.1",
+  "description": "A browser extension to convert Youtube playlist and ques into Spotify playlist",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Bockari <bitwhys@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "prettier": "^2.5.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
